@@ -7,6 +7,7 @@ from curvfife import CurvFiFE
 from analyze_golf_poly import G, pars, Golf_GPCM_IRF, strokes
 import torch as T
 from tqdm import tqdm # for progress bar
+
 P.rc('text', usetex=True)
 P.rc('font', family='serif')
 

@@ -7,6 +7,7 @@ import matplotlib.pylab as P
 from curvfife import CurvFiFE, log, norm_ppf, norm_cdf
 from scipy.interpolate import UnivariateSpline as US
 from tqdm import trange
+
 P.rc('text', usetex=True)
 P.rc('font', family='serif')
 

@@ -4,6 +4,7 @@ import matplotlib.pylab as P
 from tqdm import trange, tqdm
 from scipy.optimize import fmin_l_bfgs_b as BFGS_min
 from scipy.interpolate import CubicSpline as CS
+
 norm_cdf = lambda x : (1+T.erf(x/P.sqrt(2)))/2
 norm_ppf = lambda x : P.sqrt(2)*T.erfinv(2*T.clamp(x, 1e-9, 1-1e-9)-1)
 

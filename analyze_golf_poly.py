@@ -12,6 +12,7 @@ from scipy.misc import logsumexp as lse
 import hickle
 import json
 from tqdm import tqdm # for progress bar
+
 P.rc('text', usetex=True)
 P.rc('font', family='serif')
 
